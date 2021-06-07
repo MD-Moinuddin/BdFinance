@@ -1,0 +1,11 @@
+.sub-dropdown {
+     &:hover {
+        &_menu {
+            display: block;
+        }   
+     }
+
+     &_menu {
+        display: none;
+     }
+}
